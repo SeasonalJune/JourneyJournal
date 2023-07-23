@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script scr="js/background.js"></script>
+    <div class="grid">
+
+    
+    <div class="clock box content">
+        <h2 id="days">📆00/00</h2>
+        <h2 id="clock">⏰00:00:00</h2>
+        </div>
+
+    <div class="login box content">
+         <form class="hidden" id="log-in form">
+              <h1> Hi, your name is</h1>
+              <input
+               class="formShadow"
+                required
+                type="text"
+                placeholder="Enter your name"
+                />
+                <input class="formShadow" type="submit" value="Log-in"/>
+                </form>
+                <h1 class="hidden" id="greeting"></h1>
+                </div>
+    
+    <div class="weather box content" id="weather">
+        <h3></h3>
+        <h3></h3>
+        </div>
+        
+    <div class="todo top content">
+        <form id="todo form">
+            <h1>📝🧾 To-do List </h1>
+            <input
+            class="form"
+            type="text"
+            placeholder="Write down Things and press the Enter key"
+            required/>
+            </form>
+            <ul id="to-do list"></ul>
+            </div>
+        
+
+
+
+    <script scr="js/clock.js"></script>
+    <script scr="js/login.js"></script>
+    <script scr="js/main.js"></script>
+    <script scr="js/todo.js"></script>
+    <script scr="js/weather.js"></script>
+</body>
+</html>
